@@ -1,0 +1,19 @@
+Package: psistat
+Type: Package
+Title: Statistical Functions for Course Unit Practical Statistics I at
+    the University of Manchester
+Version: 0.15-2
+Date: 2018-02-08
+Author: Georgi N. Boshnakov
+Maintainer: Georgi N. Boshnakov <georgi.boshnakov@manchester.ac.uk>
+Depends: R (>= 3.0.0)
+Description: Functions mainly for computations related to
+    Kolmogorov-Smirnov tests, including distribution function, quantile
+    function and simulation from the Lilliefors distribution for
+    exponentiality and similar utilities for the Kolmogorov
+    distribution.
+License: GPL (>= 2)
+LazyLoad: yes
+NeedsCompilation: yes
+Suggests: knitr, rmarkdown, e1071, mlmRev, nortest
+VignetteBuilder: knitr

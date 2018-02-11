@@ -1,0 +1,26 @@
+useDynLib(psistat, .registration = TRUE, .fixes = "C_")
+
+importFrom(graphics, par, plot, points, segments)
+importFrom(stats, ecdf, is.stepfun, knots, median, pexp,
+            pnorm, punif, quantile, rbinom, rexp, runif,
+            stepfun)
+
+## exportPattern("^[[:alpha:]]+")
+export(
+    psi.Dn,
+    psi.eqf,
+    psi.jitter,
+    psi.lks.exp.test,
+    psi.pks,
+    psi.plks.exp,
+    psi.plot.stepfun,
+    psi.qlks.exp,
+    psi.rbern,
+    psi.rks,
+    psi.rlks.exp,
+    psi.tied
+)
+
+
+
+

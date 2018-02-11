@@ -1,0 +1,15 @@
+^Org/
+^Org$
+^Obsolete/
+^Obsolete$
+^auto/
+^auto$
+^TechnicalDoc/
+[.]emacs[.]desktop.*
+^TAGS$
+[^/]*[.]Rout$
+^sav[0-9]*[.]Rhistory
+^Experimental
+^[.]RData$
+^.*[.]Rhistory$
+^tests/testthat/[.]RData$
