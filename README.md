@@ -1,4 +1,9 @@
 
+You can install `psistat` from Github:
+
+    library(devtools)
+    install_github("GeoBosh/psistat")
+
 
 # psistat
 
