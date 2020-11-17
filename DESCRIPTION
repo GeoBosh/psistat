@@ -2,8 +2,8 @@ Package: psistat
 Type: Package
 Title: Statistical Functions for Course Unit Practical Statistics I at
     the University of Manchester
-Version: 0.15-2
-Date: 2018-02-08
+Version: 0.15-3
+Date: 2020-11-17
 Author: Georgi N. Boshnakov
 Maintainer: Georgi N. Boshnakov <georgi.boshnakov@manchester.ac.uk>
 Depends: R (>= 3.0.0)
